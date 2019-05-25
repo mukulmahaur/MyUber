@@ -22,9 +22,9 @@ public class StarterApplication extends Application {
 
         // Add your initialization code here
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-                .applicationId("25d1d7f12e3588336a0ed086b8f0556066cb438c")
-                .clientKey("d6d69c6d77e04b5306663c90610cec4d48757492")
-                .server("http://18.219.66.155:80/parse/")
+                .applicationId("Your_App_id")
+                .clientKey("client_key")
+                .server("server_address")
                 .build()
         );
 
